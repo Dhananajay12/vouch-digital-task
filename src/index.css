@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +8,877 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Nunito Sans', sans-serif;
+
+
+}
+
+
+
+div::-webkit-scrollbar {
+  width: 5px;
+}
+
+div::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(167, 165, 165);
+  border-radius: 10px;
+}
+
+div::-webkit-scrollbar-thumb {
+  background: #aaaaaa;
+  border-radius: 10px;
+}
+
+.text-color-bold {
+  color: #030037;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.color2 {
+  color: #030037;
+}
+
+.color4 {
+  color: #b2b2b4;
+}
+
+.text-m-color {
+  color: #030037;
+  font-size: 16px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.text-bold {
+  color: #030037;
+  font-weight: 800;
+
+}
+
+.color3 {
+  color: #3150cc;
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.button2 {
+  border: none;
+  height: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 10px;
+  background-color: #153AC7;
+  color: white;
+}
+
+.button6 {
+  border: none;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 10px;
+  background-color: #153AC7;
+  color: white;
+
+}
+
+.button2:hover {
+  background: #3150cc;
+}
+
+
+
+* {
+
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.view-client {
+  color: #030037;
+  font-weight: 800;
+}
+
+
+
+/* ------login--page-css---start */
+
+
+.login-card-right {
+  background-color: rgb(19, 19, 204);
+
+}
+
+.text-wel {
+  color: rgb(37, 10, 136);
+}
+
+.text {
+  color: white !important;
+  margin-top: 1rem;
+  padding: 10%;
+}
+
+.login-component {
+  padding: 5%;
+
+}
+
+.overflow {
+  overflow-y: hidden !important;
+}
+
+@media(min-width:1200px) {
+  .login-component {
+    padding: 20%;
+  }
+
+}
+
+@media(max-width:1200px) {
+  .login-component {
+    margin-top: 5rem;
+  }
+
+}
+
+
+@media(min-width:900px) {
+
+
+  .margin-top {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+
+}
+
+.margin-top {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+
+.input {
+  width: 100% !important;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 18px;
+  padding-left: 4rem;
+  border: 1px solid rgb(204, 195, 195);
+  border-radius: 10px;
+}
+
+.input2 {
+  width: 100% !important;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 18px;
+  padding-left: 4rem;
+  border: 1px solid rgb(204, 195, 195);
+  border-radius: 20px;
+}
+
+
+
+.button-login {
+  background-color: #1334B3;
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  border: #B8BABC !important;
+}
+
+
+.input-field .icons {
+  position: absolute !important;
+
+}
+
+.input-field .icons3 {
+  position: absolute !important;
+
+}
+
+.icons {
+  color: #B8BABC;
+  padding: 1.2rem;
+  margin-top: 0.6rem;
+
+  font-size: 65px;
+  text-align: center;
+
+}
+
+.icons3 {
+  border: none;
+  width: 2rem;
+  margin-top: 2rem;
+  margin-left: 10px;
+  font-size: 65px;
+  text-align: center;
+  z-index: 999;
+  cursor: pointer;
+}
+
+
+.icons2 {
+  margin-top: 2rem;
+  font-size: 20px;
+
+  margin-left: 1rem;
+  position: absolute !important;
+}
+
+/* .payment {
+  padding-left: 1rem !important;
+} */
+.MuiOutlinedInput-input {
+  margin-left: 2rem !important;
+}
+
+.errspan {
+  float: right;
+  margin-right: 10px;
+  margin-top: -45px;
+  position: relative;
+  font-size: 25px;
+  color: #B8BABC;
+  cursor: pointer;
+  z-index: 2;
+
+}
+
+.errspan2 {
+  float: right;
+  margin-right: 90px;
+  margin-top: -60px;
+  position: relative;
+  font-size: 20px;
+
+  z-index: 2;
+
+}
+
+.errspan3 {
+  float: right;
+  margin-right: 15px;
+  margin-top: -57px;
+  position: relative;
+  font-size: 18px;
+  color: #B8BABC;
+  z-index: 2;
+
+}
+
+.errspan4 {
+  float: right;
+  margin-right: 125px;
+  margin-top: -60px;
+  position: relative;
+  font-size: 20px;
+  color: #B8BABC;
+  z-index: 2;
+
+}
+
+
+/* ------login end here----- */
+
+/* -----sidebar--- */
+.sidebar {
+  background: white;
+  color: black;
+  height: 110vh;
+  width: 400px;
+  padding: 0.3%;
+  transition: all 0.5s;
+  margin-left: 0rem;
+}
+
+.color {
+  background: rgb(39, 9, 206);
+}
+
+.size {
+  font-size: 25px;
+  margin-top: -7px;
+  margin-left: 3px;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.logo {
+  font-size: 20px;
+  width: 10rem;
+}
+
+/* @media (max-width:1200px) {
+  .logo {
+    font-size: 15px;
+  }
+} */
+
+
+
+.bars {
+  display: flex;
+  font-size: 25px;
+  margin-top: -10px;
+  margin-left: 50px;
+  color: grey;
+  cursor: pointer;
+}
+
+.card-5 {
+  box-shadow: 0 5px 25px rgba(114, 112, 112, 0.3), 0 px 2px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+
+.size-logo {
+  font-size: 65px;
+}
+
+.isshown {
+  position: absolute;
+  right: -110%;
+
+  box-shadow: var(--box-shadow);
+  padding: 1%;
+  border-radius: .5rem;
+  background: #fff;
+}
+
+
+
+.active3 {
+  padding: 1%;
+
+  width: 100%;
+  border: 1px solid rgb(197, 195, 195);
+  border-radius: 10px;
+}
+
+
+.link {
+  margin-top: 0.7rem;
+  display: flex;
+  color: #686687;
+  cursor: pointer;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.link:hover {
+  background: rgb(223, 226, 228);
+  color: #000;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+.active {
+  background: #153AC7;
+  border-radius: 10px;
+  color: white;
+}
+
+.icon,
+.link_text {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.link_text2 {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.link2 {
+  margin-top: 0.7rem;
+  display: flex;
+  color: #B8BABC;
+
+  padding: 5px 7px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+
+
+/* -----sidebar end---- */
+
+
+/* view client start */
+.padding-multistep {
+  padding: 1%;
+
+}
+
+.background-color-view {
+  background-color: #F5F5F5;
+}
+
+.background-color {
+  background-color: white;
+}
+
+.text-color {
+  color: #030037;
+}
+
+.heading {
+  width: 100%;
+  color: #030037;
+}
+
+.serach-component {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  background-color: white;
+}
+
+.dropdown {
+  text-decoration: none;
+  color: grey;
+
+  background-color: white;
+}
+
+.export {
+  background-color: rgb(211, 206, 206);
+  color: #153AC7;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  padding-top: 0.7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  border-radius: 10px;
+  height: 2.6rem;
+  margin-top: -11px;
+
+}
+
+.center {
+  text-align: center;
+}
+
+.img-logo {
+  width: 50px;
+  border-radius: 40px;
+  padding: 2px;
+}
+
+.img-logo2 {
+  width: 80px;
+  border-radius: 40px;
+  padding: 2px;
+}
+
+.img-logo3 {
+  font-size: 90px;
+  border-radius: 80px;
+  padding: 20px;
+  background-color: rgb(202, 201, 201);
+}
+
+.ant-pagination-item-active a {
+  background: #153AC7;
+  color: wheat !important;
+  padding: 2% !important;
+
+}
+
+.dots {
+  cursor: pointer;
+}
+
+.edit-info {
+  list-style: none;
+  z-index: 1;
+  font-size: 15px;
+  position: absolute;
+  background-color: white;
+  padding: 1%;
+}
+
+.MuiStepConnector-alternativeLabel {
+  display: none;
+
+}
+
+/* .MuiStepLabel-labelContainer {
+  width: 50% !important;
+} */
+
+.MuiStepLabel-root.MuiStepLabel-alternativeLabel {
+  flex-direction: row !important;
+}
+
+.MuiStepLabel-root .MuiStepLabel-horizontal .MuiStepLabel-alternativeLabel {
+  text-align: center !important;
+  width: 10rem !important;
+}
+
+.MuiStep-horizontal {
+  padding-left: 16%;
+  padding-right: 15%;
+
+
+}
+
+.MuiStepper-root {
+
+  padding: 7px !important;
+}
+
+.plus-file {
+  font-size: 50px;
+  color: rgb(185, 184, 184);
+  border: 1px solid rgb(185, 184, 184);
+  border-radius: 100px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+  color: #3f51b5 !important;
+  font-size: 20px !important;
+  background-color: white;
+}
+
+
+.MuiStepLabel-root.MuiStepLabel-alternativeLabel {
+  flex-direction: column;
+  padding: 0%;
+  padding-left: 20% !important;
+  padding-right: 20% !important;
+}
+
+
+.MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+  margin-top: 0px !important;
+  text-align: center;
+}
+
+.MuiStepIcon-root.MuiStepIcon-completed {
+  color: #14CDA2 !important;
+
+}
+
+.MuiStepIcon-root.MuiStepIcon-active {
+  color: #153AC7 !important;
+
+}
+
+.active2 {
+  margin-top: 0.7rem;
+  display: flex;
+  color: #ffffff !important;
+  background-color: #153AC7;
+  border-radius: 10px;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.border-c {
+  height: 2px;
+  background-color: #153AC7;
+  width: 20rem;
+  margin-left: 5.5rem;
+}
+
+.border {
+  height: 4px;
+  background-color: #153AC7;
+  width: 21rem;
+  margin: 2rem;
+
+}
+
+
+
+.border-p {
+  height: 2px;
+  background-color: #153AC7;
+  width: 20rem;
+  margin-left: 26.2rem;
+}
+
+.width-small {
+  width: 100%;
+}
+
+.border-t {
+  height: 2px;
+  background-color: #153AC7;
+  width: 20rem;
+  margin-left: 48rem;
+}
+
+.border-m {
+  height: 2px;
+  background-color: #153AC7;
+  width: 20rem;
+  margin-left: 71rem;
+}
+
+/* 
+.MuiStepIcon-root.MuiStepIcon-active {
+  color: white !important;
+}
+
+
+.MuiStepIcon-text {
+  fill: #030037 !important;
+  font-size: 18px !important;
+}
+
+.MuiStepIcon-root {
+  color: white !important;
+  display: block;
+}
+
+*/
+.box:hover {
+  border: 1px solid #153AC7;
+  cursor: pointer;
+}
+
+
+.box1 {
+
+  border-radius: 10px;
+  padding-right: 3.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  margin: 1rem;
+}
+
+.box2 {
+
+  border-radius: 10px;
+  padding-left: 3.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 1rem;
+  margin: 1rem;
+}
+
+.box3 {
+
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.small-box {
+  width: 30px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #153AC7;
+}
+
+.text-style-add-client {
+  font-weight: 700;
+  font-size: 20px;
+  color: #030037;
+  margin-bottom: 0.2rem;
+}
+
+.MuiButton-containedPrimary {
+  color: #fff;
+  background: #153AC7 !important;
+}
+
+/* .MuiMenu-paper {
+  margin-top: 5rem !important;
+} */
+
+.MuiInputBase-fullWidth {
+  width: 100%;
+  height: 4rem;
+
+}
+
+.MuiOutlinedInput-root {
+  position: relative;
+  border-radius: 17px !important;
+}
+
+.input-field-color {
+  padding: 20px;
+  border-radius: 14px;
+  width: 20rem;
+  border: 1px solid rgb(201, 199, 199);
+}
+
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+  margin-top: -11px !important;
+}
+
+.MuiInputLabel-outlined {
+  margin-left: 2rem;
+  color: rgb(182, 178, 178) !important;
+
+}
+
+.module-setup {
+  justify-content: space-between;
+  display: flex;
+
+}
+
+.module-setup2 {
+  justify-content: space-between;
+  display: flex;
+  height: 7rem;
+
+}
+
+.icon-nuc {
+  color: #030037;
+  padding: 2%;
+  font-size: 50px;
+  background: #E8EBF9;
+  border-radius: 8px;
+}
+
+.daily-scroll {
+
+  width: 100%;
+  height: 30rem;
+  overflow: auto;
+}
+
+.button5 {
+  background: rgb(218, 216, 216);
+  padding: 3%;
+  border-radius: 10px;
+  height: 3rem;
+  width: 100%;
+  border: none;
+  margin-top: -5px;
+}
+
+.card-1 {
+  width: 100%;
+  height: 20rem;
+  padding: 1%;
+  background-color: white;
+
+}
+
+@media(max-width:1200px) {
+  .MuiStep-root.MuiStep-horizontal.MuiStep-alternativeLabel {
+    width: 7rem !important;
+
+  }
+
+  .input2 {
+    width: 2rem;
+
+  }
+
+  .MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+
+    font-size: 10px !important;
+  }
+
+
+}
+
+@media(max-width:800px) {
+
+  .right-one.button6 {
+    display: block !important;
+  }
+
+  .border {
+    height: 4px;
+    background-color: #153AC7;
+    width: 4rem !important;
+    margin: 2rem;
+
+  }
+
+  .padding-for-small-device {
+    padding-right: 15% !important;
+  }
+
+  .padding {
+    padding: 0% !important;
+  }
+
+  .padding2 {
+    margin-top: 0rem !important;
+    padding-left: 2% !important;
+  }
+
+  .MuiStepLabel-root.MuiStepLabel-alternativeLabel {
+    padding: 0% !important;
+    flex-direction: column;
+  }
+}
+
+@media (min-width:800px) and (max-width:1200px) {
+
+  .border {
+    height: 4px;
+    background-color: #153AC7;
+    width: 7rem !important;
+    margin: 2rem;
+
+  }
+}
+
+.left-one {
+  display: flex;
+}
+
+.right-one {
+  display: flex;
+}
+
+.success {
+  padding: 1%;
+}
+
+/* .card-2 {
+  width: 15rem;
+  height: 20rem;
+  padding: 1%;
+
+} */
+
+.button4 {
+  border: none;
+  height: 3rem;
+
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 10px;
+  background-color: rgb(212, 212, 212);
+  color: grey;
 }
