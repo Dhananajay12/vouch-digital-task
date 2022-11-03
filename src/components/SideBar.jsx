@@ -3,6 +3,9 @@ import { NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineSearch, AiOutlineUsergroupAdd } from "react-icons/ai";
 import { FaRegAddressBook } from "react-icons/fa";
+import { GrLinkNext } from "react-icons/gr";
+
+import img from "../images/boy.jpg";
 const SideBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
@@ -72,6 +75,24 @@ const SideBar = () => {
           Add Client
         </div>
       </NavLink>
+      <div style={{ bottom: "0", position: "fixed" }} className="d-flex">
+        <img src={img} alt="eroor" className="img-logo5" />
+        <div>
+          <p
+            className="mx-2"
+            style={{ fontWeight: "bold", display: isOpen ? "block" : "none" }}
+          >
+            James Burt <br></br>
+            <span style={{ fontWeight: "500" }}> iames@thevouch.digital </span>
+          </p>
+        </div>
+        <div
+          className="mx-5 mt-2 h5 text-secondary"
+          style={{ display: isOpen ? "block" : "none" }}
+        >
+          [ <GrLinkNext style={{ color: "lightgray" }} />
+        </div>
+      </div>
     </div>
   );
 };
