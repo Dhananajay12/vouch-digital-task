@@ -46,7 +46,7 @@ const Login = () => {
       progress: 0,
     });
   const notifyError = () =>
-    toast.error("Erorr", {
+    toast.error("Enter correct password and Email", {
       position: "top-center",
       autoClose: 3000,
       hideProgressBar: false,
@@ -96,7 +96,7 @@ const Login = () => {
         } else if (!password) {
           notifyP();
         }
-        console.log(error);
+        alert(error);
       });
   };
 
